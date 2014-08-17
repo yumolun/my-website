@@ -58,6 +58,7 @@ a {
 /*****************************
 home
 *****************************/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,700,900);
 
 html{
     width: 100%;
@@ -68,8 +69,6 @@ html{
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    //background: #f9f9f9;
-    //font-weight: 400;
     font-size: 1em;
     color: #333;
     overflow: scroll;
@@ -90,9 +89,45 @@ body {
 #metro{
     width: 35%;
     position: absolute;
-    margin: 1%;
     right: 1%;
-    vertical-align:middle;  
+    background-color: #f9f9f9;
+}
+
+#contact{
+    width: 35%;
+    margin: 0;
+    position: absolute;
+    right: 1%;
+    text-align: center;
+    background-color: #99CC99;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 0;
+    z-index: -1;
+}
+
+#close {
+    position: absolute;
+    right: 0.5%;
+    width: 2em;
+    height: 2em;
+    text-indent: -9000px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#close::before {
+    content: 'x';
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+    line-height: 0.6;
+    text-align: center;
+    text-indent: 0px;
 }
 
 .grid{
@@ -102,11 +137,11 @@ body {
 }
 
 .grid li{
-    width: 47%;
+    width: 48%;
     float: left;
     color: #fff; 
     font-size: 26px;
-    margin: 0 1% 2% 1%;
+    margin: 1%;
     vertical-align: middle;
     line-height: 150px;
     opacity: 0.8;
@@ -116,6 +151,7 @@ body {
 
 .grid li:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 .grid li:nth-child(1){ 
@@ -142,7 +178,13 @@ body {
     #metro{
         width: 90%;
         left: 50%;
-        margin-left: -44%;
+        margin-left: -45%;
+    }
+
+    #contact{
+        width: 90%;
+        left: 50%;
+        margin-left: -45%;
     }
 
 @media screen and (max-width: 300px){
