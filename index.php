@@ -23,13 +23,13 @@
 		<header></header>
 		<div id="metro">
 			<ul class="grid">
-				<li id="grid1">Blog</li>
-				<li id="grid2">LinkedIn</li>
-				<li id="grid3">Contact</li>
-				<li id="grid4">Favourites</li>
+				<li id="grid1" class="grid1">Blog</li>
+				<li id="grid2" class="grid2">LinkedIn</li>
+				<li id="grid3" class="grid3">Contact</li>
+				<li id="grid4" class="grid4">Favourites</li>
 			</ul>
 		</div>
-		<div id="contact">
+		<div id="contact" class="grid3">
 			<span class="close">close</span>
 			<table>
 				<tr>
@@ -40,7 +40,7 @@
 				</tr>
 			</table>
 		</div>
-		<div id="favourites">
+		<div id="favourites" class="grid4">
 			<span class="close">close</span>
 			<table>
 				<tr>

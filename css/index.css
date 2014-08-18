@@ -98,43 +98,28 @@ table td{
 #metro{
     width: 35%;
     position: absolute;
-    right: 1%;
-    background-color: #f9f9f9;
+    right: 3%;
 }
 
-#contact{
+#contact,#favourites{
     width: 35%;
     margin: 0;
     position: absolute;
-    right: 1%;
+    right: 3%;
     text-align: center;    
     font-size: 26px;
-    background-color: #99CC99;
+    color:#fff;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     opacity: 0;
     z-index: -1;
 }
 
-#favourites{
-    width: 35%;
-    margin: 0;
-    position: absolute;
-    right: 1%;
-    text-align: center;
-    font-size: 26px;
-    background-color: #C24747;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    opacity: 0;
-    z-index: -1;
-}
 
 .close {
     position: absolute;
-    right: 0.5%;
-    width: 2em;
-    height: 2em;
+    right: 0;
+    width: 1em;
     text-indent: -9000px;
     cursor: pointer;
     z-index: 1000;
@@ -142,12 +127,13 @@ table td{
 
 .close::before {
     content: 'x';
+    color: #fff;
     position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
-    font-size: 3em;
-    line-height: 0.6;
+    font-size: 1.5em;
+    line-height: 0.3;
     text-indent: 0px;
 }
 
@@ -175,19 +161,19 @@ table td{
     cursor: pointer;
 }
 
-.grid li:nth-child(1){ 
+.grid1{ 
     background: #3399CC;
 }
 
-.grid li:nth-child(2){ 
+.grid2{ 
     background: #FFCC66;
 }
 
-.grid li:nth-child(3){
+.grid3{
     background: #99CC99;
 }
 
-.grid li:nth-child(4){ 
+.grid4{ 
     background: #C24747;
 }
 
