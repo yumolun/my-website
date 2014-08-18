@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<title>Molen's site</title>
+	<meta name="description" content="This is yumolun's website.余默伦的个人网站"/>
+	<meta name="keywords" content="yumolun,molen,molun yu,余默伦,blog"/>
+	<title>Molen's</title>
 	<link rel="shortcut icon" href="favicon.ico">
 	<link href="css/index.css?version=<?=md5_file('css/index.css')?>" rel="stylesheet" type="text/css" />
 	<!-- html5.js for IE less than 9 -->
@@ -26,25 +26,31 @@
 				<li id="grid1">Blog</li>
 				<li id="grid2">LinkedIn</li>
 				<li id="grid3">Contact</li>
-				<li id="grid4">Test</li>
+				<li id="grid4">Favourites</li>
 			</ul>
 		</div>
 		<div id="contact">
-			<span id="close">close</span>
-			<span>signupmyu@163.com</span><br>			
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>signupmyu@163.com</span><br>
-			<span>1234567890</span>
+			<span class="close">close</span>
+			<table>
+				<tr>
+					<td>
+						<span>signupmyu#163.com</span><br>
+						<span>1234567890</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="favourites">
+			<span class="close">close</span>
+			<table>
+				<tr>
+					<td>
+						<span><a href="http://jsfiddle.net" target="_blank">JSFiddle</a></span><br>
+						<span><a href="http://www.regexper.com/" target="_blank">Regexper</a></span><br>
+						<span><a href="http://responsivetest.net/" target="_blank">Responsive test</a></span>
+					</td>
+				</tr>
+			</table>
 		</div>
 	</div>
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
