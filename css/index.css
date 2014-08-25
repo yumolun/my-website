@@ -58,6 +58,12 @@ a {
 /*****************************
 home
 *****************************/
+@font-face {
+  font-family: MyriadPro;
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../fonts/MyriadPro-Light.otf");
+}
 
 html{
   
@@ -70,11 +76,8 @@ html{
 body {
   background: #3c3939 url("../images/background_13661.jpg") no-repeat center center fixed;
   background-size: cover;
-
-  font-family: 'Lato', Calibri, Arial, sans-serif;
   font-size: 1em;
   color: #333;
-
   width: 100%;
   height: 100%;
 }
@@ -109,10 +112,9 @@ body {
 
 #welcome{
   margin-top: 10%;
-  font-family: Arial,sans-serif;
-  font-size: 48px;
+  font-family: 'MyriadPro',sans-serif;
+  font-size: 58px;
   color: #fff;
-  opacity: 0.6;
 }
 
 #avatar{
