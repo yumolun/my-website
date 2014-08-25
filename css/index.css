@@ -61,16 +61,21 @@ home
 @font-face {
   font-family: MyriadPro;
   font-style:  normal;
-  font-weight: 400;
+  font-weight: 100;
   src: url("../fonts/MyriadPro-Light.otf");
 }
 
+@font-face {
+  font-family: OpenSans;
+  font-style:  normal;
+  font-weight: 100;
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
 html{
-  
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 body {
@@ -145,9 +150,9 @@ body {
   padding: 10px;
   display:inline-block;
   color: #fff;
-  font-size: 1.5em;
-  font-family: Arial,sans-serif;
-  border: 3px solid #fff;
+  font-size: 24px;
+  font-family: 'OpenSans',sans-serif;
+  border: 2px solid #fff;
   opacity: 0.4;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
