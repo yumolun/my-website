@@ -27,8 +27,8 @@
       <div class="main-nav">
         <ul class="nav-bar">
           <li><a href="http://blog.yumolun.com" target="_blank">Blog</a></li>
-          <li><a href="http://resume.yumolun.com">Resume</a></li>
-          <li><a href="http://resume.yumolun.com/#6">Contact</a></li>
+          <li><a href="http://resume.yumolun.com" target="_blank">Resume</a></li>
+          <li><a href="http://resume.yumolun.com/#6" target="_blank">Contact</a></li>
         </ul>
       </div>
     </div>-->
