@@ -58,12 +58,6 @@ a {
 /*****************************
 home
 *****************************/
-@font-face {
-  font-family: MyriadPro;
-  font-style:  normal;
-  font-weight: 100;
-  src: url("../fonts/MyriadPro-Light.otf");
-}
 
 @font-face {
   font-family: OpenSans;
@@ -117,7 +111,7 @@ body {
 
 #welcome{
   margin-top: 10%;
-  font-family: 'MyriadPro',sans-serif;
+  font-family: 'OpenSans',sans-serif;
   font-size: 58px;
   color: #fff;
 }
